@@ -91,9 +91,7 @@ public class DocSoThanhChu {
     public static String lessTen(int number) {
         String lessTen = "";
         switch (number) {
-            case 0:
-                lessTen = "zero";
-                break;
+
             case 1:
                 lessTen = "one";
                 break;
