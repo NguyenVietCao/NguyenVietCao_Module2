@@ -16,16 +16,36 @@ public class ThemPhanTuVaoMang {
             array[i] = scanner.nextInt();
         }
         System.out.println(Arrays.toString(array));
-        //Nhập x là số cần chèn
-        int x ;
-        System.out.println("Nhập số cần chèn");
-        x = Integer.parseInt(scanner.nextLine());
-        if (x<= -1 && x>= array.length -1){
+        int m;
+        do {
+            System.out.println("Nhập độ dài mảng mới lớn hơn mảng cũ");
+             m = scanner.nextInt();
 
+        } while (n >= m);
+        int add ;
+        System.out.println("Nhập phần tử cần thêm");
+        add = scanner.nextInt();
+        int addressAdd;
+        System.out.println("Nhập vị trí cần thêm");
+        addressAdd = scanner.nextInt();
+        if (addressAdd <= -1 && addressAdd > m - 1){
+            System.out.print("Không chèn được phần tử vào mảng");
         }
+        int [] arrayNew = new int[m];
+        for (int i = 0; i < array.length; i++) {
+            arrayNew[i] = array[i];
+            if (addressAdd == i){
+                arrayNew[i] = add;
+                for (int j = i; j < array.length; j++) {
+                    arrayNew[j+1] = array[j];
+                }
+                break;
+            }
+        }
+        System.out.print(Arrays.toString(arrayNew));
+
 
     }
-
 
 
 }
