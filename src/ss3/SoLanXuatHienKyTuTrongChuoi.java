@@ -9,12 +9,12 @@ public class SoLanXuatHienKyTuTrongChuoi {
         String str= sc.nextLine();
         System.out.println("Nhap 1 ki tu muon kiem tra:");
         char a=sc.next().charAt(0);
-        int sum=0;
+        int count=0;
         for (int i = 0; i < str.length(); i++) {
             if (str.charAt(i)==a){
-                sum++;
+                count++;
             }
         }
-        System.out.println("Số lần kí tự "+a+" xuất hiện trong chuỗi "+str+" là: "+sum+" lần");
+        System.out.println("Số lần kí tự "+a+" xuất hiện trong chuỗi "+str+" là: "+count+" lần");
     }
 }
