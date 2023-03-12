@@ -1,4 +1,6 @@
-package ss5;
+package ss5.Student;
+import ss5.Student.Student;
+
 import java.util.Scanner;
 
 public class Test {

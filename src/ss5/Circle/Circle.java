@@ -1,4 +1,4 @@
-package ss5;
+package ss5.Circle;
 
 public class Circle {
     private static double radius = 1.0;

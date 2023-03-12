@@ -1,4 +1,4 @@
-package ss5;
+package ss5.Student;
 
 public class Student {
     private String name = "John";
