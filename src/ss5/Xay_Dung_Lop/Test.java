@@ -1,5 +1,4 @@
-package ss5.Student;
-import ss5.Student.Student;
+package ss5.Xay_Dung_Lop;
 
 import java.util.Scanner;
 

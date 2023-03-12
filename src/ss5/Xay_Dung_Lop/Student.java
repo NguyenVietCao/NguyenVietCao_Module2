@@ -1,4 +1,4 @@
-package ss5.Student;
+package ss5.Xay_Dung_Lop;
 
 public class Student {
     private String name = "John";

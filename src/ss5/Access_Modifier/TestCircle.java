@@ -1,5 +1,4 @@
-package ss5.Circle;
-import ss5.Circle.Circle;
+package ss5.Access_Modifier;
 
 import java.util.Scanner;
 public class TestCircle {
