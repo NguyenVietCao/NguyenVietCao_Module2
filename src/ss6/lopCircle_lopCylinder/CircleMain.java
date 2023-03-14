@@ -1,4 +1,4 @@
-package ss6.LopCircle_LopCylinder;
+package ss6.lopCircle_lopCylinder;
 
 import java.util.Scanner;
 

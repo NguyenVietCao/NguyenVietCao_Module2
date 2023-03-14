@@ -1,4 +1,4 @@
-package ss6.Poin2D_Poin3D;
+package ss6.poin2D_poin3D;
 
 import java.util.Scanner;
 

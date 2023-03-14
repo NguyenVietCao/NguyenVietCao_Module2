@@ -1,4 +1,4 @@
-package ss6.LopPoin_MoveablePoint;
+package ss6.lopPoin_moveablePoint;
 
 public class MovablePoint extends Point {
     protected float xSpeed = 0.0f;

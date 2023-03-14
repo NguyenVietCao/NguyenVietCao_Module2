@@ -1,4 +1,4 @@
-package ss6.LopPoin_MoveablePoint;
+package ss6.lopPoin_moveablePoint;
 
 import java.util.Scanner;
 
