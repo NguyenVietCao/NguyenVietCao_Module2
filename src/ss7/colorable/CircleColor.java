@@ -24,7 +24,9 @@ public class CircleColor extends ShapeColor {
         this.radius = radius;
     }
 
-    public double getCircleArea() {
+
+    @Override
+    public double getArea() {
         return radius * radius * Math.PI;
     }
 

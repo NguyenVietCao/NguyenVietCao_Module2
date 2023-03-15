@@ -29,9 +29,11 @@ public class RectangleColor extends ShapeColor {
         this.height = height;
     }
 
-    public double getRectangleArea(double width, double height) {
+    @Override
+    public double getArea() {
         return width * height;
     }
+
 
     public double getRectanglePerimeter() {
         return (width + height) * 2;

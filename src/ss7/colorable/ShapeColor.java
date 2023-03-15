@@ -1,6 +1,6 @@
 package ss7.colorable;
 
-public abstract class ShapeColor implements IColorable {
+public abstract class ShapeColor {
     public String color = "Green";
     public boolean filter = true;
 
@@ -27,11 +27,12 @@ public abstract class ShapeColor implements IColorable {
     public boolean isFilter() {
         return filter;
     }
+    public abstract double getArea();
 
-    @Override
-    public void howToColor() {
-
-    }
+//    @Override
+//    public void howToColor() {
+//
+//    }
 
     @Override
     public String toString() {

@@ -1,6 +1,6 @@
 package ss7.colorable;
 
-public class SquareColor extends ShapeColor {
+public class SquareColor extends ShapeColor implements IColorable{
     public double width = 1;
 
     public SquareColor() {
@@ -19,13 +19,21 @@ public class SquareColor extends ShapeColor {
         this.width = width;
     }
 
-    public double getSquareArea() {
+    @Override
+    public double getArea() {
+        System.out.printf("dien tich hinh vuong: ");
         return width * width;
     }
 
     public double getSquarePerimeter() {
         return width * 4;
     }
+
+    @Override
+    public void howToColor() {
+        System.out.printf("Color four side");
+    }
+
 
     @Override
     public void resize(double percent) {
