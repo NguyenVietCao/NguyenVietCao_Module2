@@ -1,9 +1,6 @@
 package ss7.colorable;
 
-import Thuc_Hanh_ss6.Shape;
-import ss7.resizeable.Rectangle;
-
-public class test {
+public class Test {
     public static void main(String[] args) {
         ShapeColor[] shapeColors = new ShapeColor[3];
         CircleColor circleColor = new CircleColor(2);

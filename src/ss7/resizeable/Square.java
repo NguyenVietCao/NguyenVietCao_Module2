@@ -22,7 +22,8 @@ public class Square extends Shape {
 
     @Override
     public void resize(double percent) {
-        double width = this.width * percent / 100 + this.width;
+
+         width = this.width * percent / 100 + this.width;
     }
 
     @Override

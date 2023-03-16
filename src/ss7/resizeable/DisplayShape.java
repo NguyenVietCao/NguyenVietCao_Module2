@@ -43,5 +43,17 @@ public class DisplayShape {
         double w = Double.parseDouble(scanner.nextLine());
         square.setWidth(w);
         System.out.println("Diện tích hình vuông" + square);
+        double randomPercent = (Math.random())*100;
+        circle.resize(randomPercent);
+        System.out.println("Diện Tích hình tròn sau khi random:");
+        System.out.println(circle.getCircleArea());
+
+        rectangle.resize(randomPercent);
+        System.out.println("Diện tích hình chữ nhật");
+        System.out.println(rectangle.getRectangleArea());
+
+        square.resize(randomPercent);
+        System.out.println("Diện tích hình vuông sau random:");
+        System.out.println(square.getSquareArea());
     }
 }
